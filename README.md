@@ -13,8 +13,9 @@ que traduz as funções de Python. Criando então, uma nova lingagem de programa
 Para contribuir com código:
 
 1. Crie um fork deste repositório
-2. Crie uma `branch` nova a partir da branch core
-  * Nomeie a sua `branch` no seguinte formato -> `aaaa-mm-dd-[nome do usuário]`
-    - `2022-11-11-victorkolis`
+2. Crie uma `branch` nova a partir da branch `core`
+  * Nomeie a sua `branch` no seguinte formato:
+    - `feature/PLB-[número do PLB]-aaaa-mm-[nome do usuário]`, para features
+    - `bugfix/PLB-[número do PLB]-aaaa-mm-[nome do usuário]`, para bugfix
 3. Faça os `commits` comparando `across forks`
 4. Siga o `playbook` para novas contribuições
