@@ -19,3 +19,4 @@ Para contribuir com código:
     - `bugfix/PLB-[número do PLB]-aaaa-mm-[nome do usuário]`, para bugfix
 3. Faça os `commits` comparando `across forks`
 4. Siga o `playbook` para novas contribuições
+5. Sempre atualize suas `branches` antes de começar a trabalhar em novas entregas 
