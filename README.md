@@ -25,3 +25,4 @@ Para contribuir com código:
 O objetivo dessa ferramenta é modificar as funções, e tudo aquilo que pertence a camada \
 mais acessível do Python, sem modificar a gramática propriamente dita. Servindo como \
 uma biblioteca que se comporta como uma universo paralelo das libs/pacotes conhecidas na linguagem.
+Logo as palavras reservadas, também conhecidas como `Keywords` serão preservadas.
