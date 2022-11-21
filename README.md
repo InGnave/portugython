@@ -1,5 +1,5 @@
 # Portugython
-Essa é uma biblioteca Python que facilita a interação com a linguagem para não falantes de Inglês
+Essa é uma biblioteca Python que facilita a interação com a linguagem para não falantes de Inglês (com foco em Brazileiros)
 
 O Brasil atulamente, 11/11/2022, é o país com o maior número de escolas de idiomas do mundo. \
 Especialmente escolas do idioma Inglês. Contudo, um dos países que menos se fala outros idiomas \
