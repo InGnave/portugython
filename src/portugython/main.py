@@ -1,3 +1,8 @@
 from embutidos import *
 
-qualquer(1)
+chamavel(print)
+
+
+arquivo = abra('exemplo.txt', 'leitura')
+print(arquivo)
+
