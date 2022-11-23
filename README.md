@@ -34,6 +34,6 @@ pip install portugython
 ```python
 from portugython.embutidos import *
 
-# Traduç
+# Tradução de print
 imprima('Olá, Portugython!')
 ```
