@@ -26,3 +26,14 @@ O objetivo dessa ferramenta é modificar as funções, e tudo aquilo que pertenc
 mais acessível do Python, sem modificar a gramática propriamente dita. Servindo como \
 uma biblioteca que se comporta como uma universo paralelo das principais funç conhecidas na linguagem.
 Logo as palavras reservadas, também conhecidas como `Keywords` serão preservadas.
+
+## Install 
+`pip install portugython`
+
+## Code example
+```python
+from portugython.embutidos import *
+
+# Tradução de print
+imprima('Olá, Portugython!')
+```
