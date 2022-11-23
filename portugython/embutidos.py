@@ -1,5 +1,3 @@
-from erros.tipo import ErroDeTipo
-
 __nome__ = __name__
 
 

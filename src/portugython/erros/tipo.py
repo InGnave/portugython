@@ -1,2 +1,0 @@
-class ErroDeTipo(Exception):
-    pass
