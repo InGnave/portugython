@@ -97,7 +97,7 @@ proximo = next
 
 # TODO: oct not yet implemented
 
-def abra(arquivo, modo, buffering=None, encoding=None, errors=None, newline=None, closefd=True):
+def abra(arquivo, modo=None, buffering=None, encoding=None, errors=None, newline=None, closefd=True):
     modos = {
         'leitura': 'r',
         'escrita': 'w',
@@ -106,7 +106,7 @@ def abra(arquivo, modo, buffering=None, encoding=None, errors=None, newline=None
         'binario': 'b',
         'text': 't',
     }
-    return open(file=arquivo, mode=modos.get(modo, 'leitura'), encoding=encoding)
+    return open(file=arquivo, mode=modos.get(modo, 'r'), encoding=encoding)
 
 
 # TODO: ord not yet implemented
