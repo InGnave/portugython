@@ -1,0 +1,9 @@
+site_name: Portugython
+site_description: Portugython pacote, para tradução/reatribuição dos valores de pacotes/atributos/metodos/classes Python
+site_url:
+theme: readthedocs
+nav:
+  - Home: index.md
+  - About: about.md
+  - Languages:
+      - pt: /pt/
