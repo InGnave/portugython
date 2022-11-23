@@ -28,7 +28,7 @@ uma biblioteca que se comporta como uma universo paralelo das principais funç c
 Logo as palavras reservadas, também conhecidas como `Keywords` serão preservadas.
 
 ## Install 
-pip install portugython
+`pip install portugython`
 
 ## Code example
 ```python
