@@ -4,8 +4,8 @@ Essa é uma biblioteca Python que facilita a interação com a linguagem para n�
 O Brasil atulamente, 11/11/2022, é o país com o maior número de escolas de idiomas do mundo. \
 Especialmente escolas do idioma Inglês. Contudo, um dos países que menos se fala outros idiomas \
 comumente em sua sociedade. Pensando em uma forma de facilitar então a interatividade, o primeiro contato \
-com um dos idiomas mais importantes atualmente, Idioma Das Máquinas, a In Gnave decidiu criar uma biblioteca
-que traduz as funções de Python. Criando então, uma nova camada de funções traduzidas.
+com um dos idiomas mais importantes da atualidade, Idioma Das Máquinas, a In Gnave decidiu criar uma biblioteca
+que traduz as funções de Python. Criando então, uma nova camada de funções/classes/modulos/pacotes padrão traduzidas.
 
 
 ## Como contribuir
@@ -24,8 +24,9 @@ Para contribuir com código:
 ## Objetivo
 O objetivo dessa ferramenta é modificar as funções, e tudo aquilo que pertence a camada \
 mais acessível do Python, sem modificar a gramática propriamente dita. Servindo como \
-uma biblioteca que se comporta como uma universo paralelo das principais funç conhecidas na linguagem.
-Logo as palavras reservadas, também conhecidas como `Keywords` serão preservadas.
+uma biblioteca que se comporta como tradução das funções/classes/modulos/pacotes padrão da linguagem.
+Logo as palavras reservadas, também conhecidas como [`Keywords`](https://docs.python.org/pt-br/3/library/keyword.html) 
+permanecem as mesmas.
 
 ## Install 
 `pip install portugython`
