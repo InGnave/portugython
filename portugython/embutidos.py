@@ -1,6 +1,3 @@
-__nome__ = __name__
-
-
 # TODO: Improve error messages
 # TODO: Improve importing structure: avoid deep nested import -> from example.a.b import
 
