@@ -21,7 +21,7 @@ arredonde
 ```
 
 # ARRUMADO
-Formata um iterável para uma lista e rearranja seu(s) elemento(s) (por padrão) de forma ASCII-bética.  
+Formata um iterável ou iterador para uma lista e rearranja seu(s) elemento(s) (por padrão) de forma ASCII-bética.  
 ```
 arrumado
 ```
@@ -39,7 +39,7 @@ chamavel
 ```
 
 # COMPRIMENTO
-Retorna o comprimento de um iterável.
+Retorna o comprimento de um iterável ou iterador.
 ```
 comprimento
 ```
@@ -118,7 +118,7 @@ proximo
 ```
 
 # QUALQUER
-Verifica se qualquer um dos elementos contidos em um iterável é verdadeiro. Caso contrário retorna `False`.
+Verifica se qualquer um dos elementos contidos em um iterável ou iterador é verdadeiro. Caso contrário retorna `False`.
 ```
 qualquer
 ```
@@ -130,7 +130,7 @@ sair
 ```
 
 # TODOS
-Verifica se todos elementos contidos em um iterável é verdadeiro. Caso contrário retorna `False`.
+Verifica se todos elementos contidos em um iterável ou iterador é verdadeiro. Caso contrário retorna `False`.
 ```
 todos
 ```
