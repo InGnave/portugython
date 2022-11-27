@@ -8,7 +8,7 @@ abra
 ```
 
 # ABSOLUTO
-Retorna o valor absoluto de um número.
+Retorna o valor absoluto de um número. Se o um número complexo é passado como argumento sua magnitude é retornada.
 ```
 absoluto(x)
 
@@ -27,13 +27,13 @@ arrumado
 ```
 
 # BINARIO
-Converte inteiros para binário. Com o texto préfixado 0b.
+Converte inteiros para binários com o texto préfixado 0b.
 ```
 binario
 ```
 
 # CHAMAVEL
-Verifica se algum nome (Name ou variável) é chamável. Em outras palavras, se o Name é uma função.  
+Verifica se algum nome (Name ou variável) é chamável. Em outras palavras, se o `Name` é uma função.  
 ```
 chamavel
 ```
@@ -63,14 +63,14 @@ entrada
 ```
 
 # IMPRIMA
-Imprime valores no terminal
+Imprime valores no terminal.
 ```
 imprima
 ```
 
 # INVERTIDO
-Cria uma stream `reversed object` (objeto invertido em stream) a partir de iteráveis. Ou seja, inverte um iterável,
-e o converte para um outro tipo de iterável `reversed` que uma vez consumido fica vazio. 
+Cria um iterador (objeto invertido) a partir de iteráveis ou iteradores. Ou seja, inverte seus elementos,
+e o converte para um outro tipo de iterador `reversed`. E retorna um `reversed object`.
 ```
 invertido
 ```
@@ -88,31 +88,37 @@ isumasubclasse
 ```
 
 # JUNTE
-Junta iteráveis criando uma stream `zip object` (objeto zip).
+Junta iteráveis criando um iterador `zip object` (objeto zip).
 ```
 junte
 ```
 
 # MAIOR
-Verifica dentro de um iterável qual é o seu maior elemento.
+Verifica dentro de um iterável ou iterador qual é o seu maior elemento.
 ```
 maior
 ```
 
 # MENOR
-Verifica dentro de um iterável qual é o seu menor elemento.
+Verifica dentro de um iterável ou iterador qual é o seu menor elemento.
 ```
 menor
 ```
 
+# PARAR
+Para o REPL do Python. Finaliza o terminal interativo do Python.
+```
+parar
+```
+
 # PROXIMO
-Retorna o próximo objeto de um interável.
+Retorna o próximo elemento de um interador.
 ```
 proximo
 ```
 
 # QUALQUER
-Verifica se qualquer um dos elementos contidos em um iterável é verdadeiro.
+Verifica se qualquer um dos elementos contidos em um iterável é verdadeiro. Caso contrário retorna `False`.
 ```
 qualquer
 ```
@@ -124,12 +130,19 @@ sair
 ```
 
 # TODOS
-Verifica se todos elementos contidos em um iterável é verdadeiro.
+Verifica se todos elementos contidos em um iterável é verdadeiro. Caso contrário retorna `False`.
 ```
 todos
 ```
 
 # UNICODE
+Converte valores inteiros em seus respectivos representados na tabela ASCII. O inverso de `valorascii`.
 ```
 unicode
+```
+
+# VALORASCII
+Retorna 
+```
+valorascii
 ```
