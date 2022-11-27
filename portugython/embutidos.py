@@ -109,12 +109,12 @@ def abra(arquivo, modo=None, buffering=None, encoding=None, errors=None, newline
     return open(file=arquivo, mode=modos.get(modo, 'r'), encoding=encoding)
 
 
-# TODO: ord not yet implemented
+valorascii = ord
 
 elevado = potencia = pow
 imprima = print
+parar = quit
 
-# TODO: quit not yet implemented
 # TODO: repr not yet implemented
 
 invertido = reversed
