@@ -1,1 +1,0 @@
-from portugython.embutidos import *
