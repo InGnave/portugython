@@ -34,7 +34,7 @@ permanecem as mesmas.
 ## Code example
 
 ```python
-from src.portugython.embutidos import *
+from portugython import *
 
 # Tradução de print
 imprima('Olá, Portugython!')
