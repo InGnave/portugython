@@ -32,8 +32,9 @@ permanecem as mesmas.
 `pip install portugython`
 
 ## Code example
+
 ```python
-from portugython.embutidos import *
+from portugython import *
 
 # Tradução de print
 imprima('Olá, Portugython!')
