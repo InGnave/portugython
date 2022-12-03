@@ -34,7 +34,7 @@ def qualquer(iteravel):
         raise
 
 
-# TODO: anext not yet implemented
+aproximo = anext
 
 # TODO: ascii not yet implemented
 
