@@ -34,7 +34,8 @@ def qualquer(iteravel):
         raise
 
 
-# TODO: anext not yet implemented
+
+aproximo = anext
 
 # TODO: ascii not yet implemented
 
@@ -49,7 +50,8 @@ def binario(inteiro):
         raise
 
 
-# TODO: breakpoint not yet implemented
+
+ponto_de_parada = breakpoint
 
 
 chamavel = callable
@@ -58,7 +60,7 @@ unicode = chr
 # TODO: compile not yet implemented
 # TODO: copyright not yet implemented
 # TODO: credits not yet implemented
-# TODO: delattr not yet implemented
+deletar_atributo = delattr
 # TODO: dir not yet implemented
 # TODO: divmod not yet implemented
 # TODO: eval not yet implemented
@@ -67,27 +69,27 @@ unicode = chr
 sair = exit
 
 # TODO: format not yet implemented
-# TODO: getattr not yet implemented
+obter_atributo = getattr
 # TODO: globals not yet implemented
 
 tem_atributo = hasattr
 
 # TODO: hash not yet implemented
-# TODO: help NEEDS IMPLEMENTATION
-# TODO: hex not yet implemented
-# TODO: id not yet implemented
+ajuda = help
+hexadecimal = hex
+identificador = id
 
 entrada = input
 isinstancia = isinstance
 isumasubclasse = issubclass
 
-# TODO: iter not yet implemented
+iterador = iter
 
 comprimento = len
 
 # TODO: license not yet implemented
 # TODO: locals not yet implemented
-# TODO: map not yet implemented
+mapear = map
 
 
 maior = max
