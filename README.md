@@ -19,7 +19,8 @@ Para contribuir com código:
     - `bugfix/PLB-[número do PLB]-aaaa-mm-[nome do usuário]`, para bugfix
 3. Faça os `commits` comparando `across forks`
 4. Siga o `playbook` para novas contribuições
-5. Sempre atualize suas `branches` antes de começar a trabalhar em novas entregas 
+5. Sempre atualize suas `branches` antes de começar a trabalhar em novas entregas
+6. Formate seu código, [Black¹](https://pypi.org/project/black/) [Black²](https://gist.github.com/victorkolis/b1632e443e8f09e5d5addbc3619c0df6), antes de comitar novas alterações
 
 ## Objetivo
 O objetivo dessa ferramenta é modificar as funções, e tudo aquilo que pertence a camada \
