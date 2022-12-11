@@ -12,7 +12,7 @@ def absoluto(numero):
         raise
 
 
-# TODO: aiter not yet implemented
+aiterador = aiter
 
 
 def todos(iteravel):
@@ -37,7 +37,7 @@ def qualquer(iteravel):
 
 aproximo = anext
 
-# TODO: ascii not yet implemented
+valor_ascii = ascii
 
 
 def binario(inteiro):
@@ -57,24 +57,25 @@ ponto_de_parada = breakpoint
 chamavel = callable
 unicode = chr
 
-# TODO: compile not yet implemented
-# TODO: copyright not yet implemented
-# TODO: credits not yet implemented
+compilar = compile
+direito_autoral = copyright
+creditos = credits
 deletar_atributo = delattr
-# TODO: dir not yet implemented
-# TODO: divmod not yet implemented
-# TODO: eval not yet implemented
-# TODO: exec not yet implemented
+propriedades = dir
+divisao_resto = divmod
+avaliar = eval
+executar = exec
 
 sair = exit
 
-# TODO: format not yet implemented
+formatar = format
 obter_atributo = getattr
-# TODO: globals not yet implemented
+variaveis_globais = globals
+
 
 tem_atributo = hasattr
 
-# TODO: hash not yet implemented
+valor_hash = hash
 ajuda = help
 hexadecimal = hex
 identificador = id
@@ -87,8 +88,8 @@ iterador = iter
 
 comprimento = len
 
-# TODO: license not yet implemented
-# TODO: locals not yet implemented
+licenca = license
+variaveis_locais = locals
 mapear = map
 
 
@@ -97,7 +98,7 @@ menor = min
 proximo = next
 
 
-# TODO: oct not yet implemented
+octal = oct
 
 def abra(arquivo, modo=None, buffering=None, encoding=None, errors=None, newline=None, closefd=True):
     modos = {
@@ -111,13 +112,13 @@ def abra(arquivo, modo=None, buffering=None, encoding=None, errors=None, newline
     return open(file=arquivo, mode=modos.get(modo, 'r'), encoding=encoding)
 
 
-valorascii = ord
+valor_unicode = ord
 
 elevado = potencia = pow
 imprima = print
 parar = quit
 
-# TODO: repr not yet implemented
+representacao = repr 
 
 invertido = reversed
 arredonde = round
@@ -125,6 +126,6 @@ definaatributo = setattr
 arrumado = sorted
 some = sum
 
-# TODO: vars not yet implemented
+mostrar_dicionario = vars
 
 junte = zip
